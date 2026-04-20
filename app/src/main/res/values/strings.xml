@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="permission_button">Request permissions</string>
+<string name="select_device" translatable="false">Select watch</string>
+<string name="no_device" translatable="false">Select a device first</string>
+
+<string name="glycemia" translatable="false">Glucose</string>
+<string name="received_at" translatable="false">Received at</string>
+<string name="status" translatable="false">Status</string>
+
+<string name="inactive" translatable="false">Inactive</string>
+<string name="last_data" translatable="false">Last data received</string>
+<string name="app_name">FreeOllee</string>
+</resources>
