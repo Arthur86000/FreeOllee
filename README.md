@@ -16,18 +16,24 @@ FreeOllee is an apk that allow to send custom data to an Ollee Watch
 Send a broadcast intent to this app
 - From adb :
 
-<pre>adb shell am broadcast -a com.arthur.freeollee.SEND_VALUE --es value "***value***"</pre>
+<pre>adb shell am broadcast -a com.arthur.freeollee.SEND_VALUE --es value "value"</pre>
+
+Example with "Hello":
+
+<pre>adb shell am broadcast -a com.arthur.freeollee.SEND_VALUE --es value "Hello"</pre>
 
 - From tasker : Create an intent task
 
 <pre>Action	com.arthur.freeollee.SEND_VALUE
-Extra	value: ***yourvalue***
+Extra	value: yourvalue
 Package	com.arthur.freeollee
 Target	Broadcast Receiver</pre>
 
-  /!\   If bluetooth was disconnected ('lap' icon not showing on watch), long-press the bottom-right button twice to reenable bluetooth and then sync data
 
-  /!\   Your value must be 7 characters or less
+
+  /!\   If bluetooth was disconnected ('*lap*' icon not showing on watch), long-press the bottom-right button twice to reenable bluetooth and then sync data
+
+  /!\   Your value must be 6 characters or less
  
 
 # TODO
