@@ -17,10 +17,10 @@ Send a broadcast intent to this app
 - From adb : ```adb shell am broadcast -a com.arthur.freeollee.SEND_VALUE --es value "value"```
 - From tasker : Create
 
-<pre>```Action	com.arthur.freeollee.SEND_VALUE
-```Extra	value:*yourvalue*```
-```Package	com.arthur.freeollee```
-```Target	Broadcast Receiver```</pre>
+<pre>Action	com.arthur.freeollee.SEND_VALUE
+Extra	value:*yourvalue*
+Package	com.arthur.freeollee
+Target	Broadcast Receiver</pre>
 
   /!\   If bluetooth was disconnected ('lap' icon not showing on watch), long-press the bottom-right button twice to reenable bluetooth and then sync the glucose data
   
