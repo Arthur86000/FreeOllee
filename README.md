@@ -14,11 +14,14 @@ FreeOllee is an apk that allow to send custom data to an Ollee Watch
 # How to use
 
 Send a broadcast intent to this app
-- From adb : ```adb shell am broadcast -a com.arthur.freeollee.SEND_VALUE --es value "value"```
+- From adb :
+
+<pre>adb shell am broadcast -a com.arthur.freeollee.SEND_VALUE --es value "***value***"</pre>
+
 - From tasker : Create an intent task
 
 <pre>Action	com.arthur.freeollee.SEND_VALUE
-Extra	value:*yourvalue*
+Extra	value: ***yourvalue***
 Package	com.arthur.freeollee
 Target	Broadcast Receiver</pre>
 
