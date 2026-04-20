@@ -1,6 +1,6 @@
 # FreeOllee
 
-FreeOllee is an apk that allow to send custom data to an Ollee Watch
+FreeOllee is an apk that allow to automatically send custom data to an Ollee Watch
 
 
 
