@@ -6,6 +6,9 @@ FreeOllee is an apk that allow to automatically send custom data to an Ollee Wat
 
 # Install
  
+- Close the official Ollee Watch app
+- Go into your phone's bluetooth settings
+- Connect to your watch (make sure bluetooth is on on your watch). You may find it under "Rarely used devices"
 - Download the apk in the release section (https://github.com/Arthur86000/FreeOllee/releases/)
 - Install the app and open it
 - Tap on the "Request Permissions" button and accept
